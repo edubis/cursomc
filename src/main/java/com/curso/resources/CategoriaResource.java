@@ -1,8 +1,5 @@
 package com.curso.resources;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,7 +23,7 @@ public class CategoriaResource {
 
 		Categoria obj = service.buscar(id);
 
-		return ResponseEntity.ok().body(obj);
+		return ResponseEntity.ok().body(obj );
 	}
 
 }

@@ -10,17 +10,17 @@ import com.curso.repositories.CategoriaRepository;
 
 @Service
 public class CategoriaService {
-	
-	//declarando uma dependencia numa classe
+
+	// declarando uma dependencia numa classe
 	@Autowired
 	private CategoriaRepository repo;
-	
+
 	public Categoria buscar(Integer id) {
 
 		Optional<Categoria> obj = repo.findById(id);
-		
+
 		return obj.orElse(null);
-		
+
 	}
-	
+
 }
