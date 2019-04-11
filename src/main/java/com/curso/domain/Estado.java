@@ -10,7 +10,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 
 @Entity
@@ -23,7 +23,7 @@ public class Estado implements Serializable {
 	private Integer id;
 	private String nome;
 	//anotação reversa da de cidade, onde, um estado tem muitas cidades.
-	@JsonBackReference
+	@JsonIgnore
 	@OneToMany(mappedBy = "estado")
 	List<Cidade> cidades = new ArrayList<>();
 
