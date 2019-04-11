@@ -1,0 +1,77 @@
+[33mcommit 033d408977e0052d2394d02ee709530aed0ccc94[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: letrindade <lucas.eduardo.t.silva@gmail.com>
+Date:   Thu Apr 11 11:16:55 2019 -0300
+
+    ItemPedido e ItemPedidoPK
+
+[33mcommit 90e70dba8fd165cc3251634723aa6609441df221[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: letrindade <lucas.eduardo.t.silva@gmail.com>
+Date:   Thu Apr 11 10:11:39 2019 -0300
+
+    Pedido, Pagamento e Estado Pagamento
+
+[33mcommit 588a6d3d288773b341cf7fa80ea70758c3cfe606[m
+Author: letrindade <lucas.eduardo.t.silva@gmail.com>
+Date:   Wed Apr 10 16:57:54 2019 -0300
+
+    endpoint /clientes/{id} disponivel
+
+[33mcommit 0a68fae0e283a772e355f9250d8740d1e1be7368[m
+Author: letrindade <lucas.eduardo.t.silva@gmail.com>
+Date:   Wed Apr 10 16:41:03 2019 -0300
+
+    clientes, tipo cliente, tellefones e enderecos
+
+[33mcommit 35fc68a36de23cde6c573afba27eec5c12f7fdf6[m
+Author: letrindade <lucas.eduardo.t.silva@gmail.com>
+Date:   Tue Apr 9 17:03:20 2019 -0300
+
+    Criado classes Endereco, Cliente e EnumTipoCliente
+
+[33mcommit 11aac696a8616f36781fc553ab9089222701d1c0[m
+Author: letrindade <lucas.eduardo.t.silva@gmail.com>
+Date:   Tue Apr 9 15:27:45 2019 -0300
+
+    Estado e Cidade
+
+[33mcommit ce694c1ba0fb81c576ca5d64c2a0e8a4c57c14a6[m
+Author: letrindade <lucas.eduardo.t.silva@gmail.com>
+Date:   Tue Apr 9 14:28:57 2019 -0300
+
+    exceptions de produto/categoria, verificacao de busca de categoria ID
+
+[33mcommit 61999d2fdab59b827db77d7965ca4f205c3b7369[m
+Author: letrindade <lucas.eduardo.t.silva@gmail.com>
+Date:   Tue Apr 9 12:47:07 2019 -0300
+
+    Produto e associacao muitos para muitos
+
+[33mcommit f76fad9dfa003fab072631943ae67b8d5356148d[m
+Author: letrindade <lucas.eduardo.t.silva@gmail.com>
+Date:   Tue Apr 9 09:35:22 2019 -0300
+
+    Criando operacao de instanciacao
+
+[33mcommit e80b50ac19f04081b21d965bcefc4ea41a2f9232[m
+Author: letrindade <lucas.eduardo.t.silva@gmail.com>
+Date:   Mon Apr 8 14:14:37 2019 -0300
+
+    Criado repository e service para categoria
+
+[33mcommit da1922c5b786529c62e43f438c8b82d8af4b24e8[m
+Author: letrindade <lucas.eduardo.t.silva@gmail.com>
+Date:   Fri Apr 5 14:21:58 2019 -0300
+
+    banco h2
+
+[33mcommit 3493f98a71715d6e709f68d4de83d5d074abcf37[m
+Author: letrindade <lucas.eduardo.t.silva@gmail.com>
+Date:   Fri Apr 5 13:46:14 2019 -0300
+
+    testando primeira classe de dominio
+
+[33mcommit 70efc0c22de6d63630fd47e13cf40846b439f46a[m
+Author: letrindade <lucas.eduardo.t.silva@gmail.com>
+Date:   Fri Apr 5 13:23:46 2019 -0300
+
+    first commit
